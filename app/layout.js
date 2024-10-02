@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <body className={poppins.className} suppressHydrationWarning={true}>
         <Header />
 
-        <main style={{ textAlign: 'center', marginTop: '100px' }}>
+        <main style={{ textAlign: 'center', marginTop: '110px', marginBottom: '100px' }}>
           {children}
         </main>
 
