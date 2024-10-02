@@ -11,8 +11,8 @@ async function FetchData() {
 
 export default async function Home() {
   const posts = await FetchData()
-  console.log(posts)
 
+  console.log(posts)
 
   return (
     <div>
