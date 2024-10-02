@@ -1,19 +1,19 @@
 import Link from "next/link";
 
-export default function Post({ res }) {
+export default function Post({ post }) {
   return (
     <div className="post">
       <h2>
-        Post: {res.id}
+        Post: {post.id}
       </h2>
       <h2>
-        {res.title}
+        {post.title}
       </h2>
       <p>
-        {res.body}
+        {post.body}
       </p>
       <strong>
-        Avtor Id: {res.userId}
+        Avtor Id: {post.userId}
       </strong> <br />
       <Link href='/' className='link'>Назад</Link>
     </div>

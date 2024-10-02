@@ -9,9 +9,9 @@ async function FetchData(id) {
 }
 
 export default async function PostPage({ params }) {
-  const res = await FetchData(params.id);
+  const post = await FetchData(params.id);
 
   return (
-    <Post res={res} />
+    <Post post={post} />
   )
 }
