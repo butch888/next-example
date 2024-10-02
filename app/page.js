@@ -1,9 +1,9 @@
 import Posts from "./components/Posts";
 
-const URL2 = 'http://localhost:3000/api/data'
+const URL1 = 'http://localhost:3000/api/data'
 
 async function FetchData() {
-  const res = await fetch(URL2)
+  const res = await fetch(URL1)
   const result = await res.json()
   return result
 }
